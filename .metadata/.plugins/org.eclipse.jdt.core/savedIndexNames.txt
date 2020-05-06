@@ -2,7 +2,6 @@ INDEX VERSION 1.131+E:\3rd year 1st sem\PAF\Hospital Service\.metadata\.plugins\
 150067540.index
 1914238932.index
 2869069694.index
-3567557662.index
 3453028223.index
 972527979.index
 813735041.index

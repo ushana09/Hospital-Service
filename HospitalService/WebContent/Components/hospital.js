@@ -1,9 +1,5 @@
 $(document).ready(function(){
-	
-	if($("#alertSuccess").text().trim() == "")
-	{
-		$("#alertSuccess").hide();
-	}
+	s$("#alertSuccess").hide();
 	$("#alertError").hide();
 }); 
 
@@ -90,7 +86,7 @@ $(document).on("click", ".btnRemove", function(event) {
 	$.ajax({
 		url : "hospitalsAPI",
 		type : "DELETE",
-		data : "hosId=" + $(this).data("hosId"),
+		data : "hosId=" + $(this).data("hosid"),
 		dataType : "text",
 		complete : function(response, status) 
 		{
