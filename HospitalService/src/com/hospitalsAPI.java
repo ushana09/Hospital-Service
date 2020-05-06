@@ -58,7 +58,8 @@ public class hospitalsAPI extends HttpServlet {
 				String[] p = param.split("=");
 				map.put(p[0], p[1]);
 			}
-		} catch (Exception e) {
+		} catch (Exception e) 
+		{
 		}
 		return map;
 	}

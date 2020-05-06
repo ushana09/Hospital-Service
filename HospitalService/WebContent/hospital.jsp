@@ -9,11 +9,8 @@
 <title>Hospital Details</title>
 
 <link rel="stylesheet" href="Views/bootstrap.min.css">
-<script type="text/javascript" src="Components/jquery-3.5.0.min.js"></script>
-<script type="text/javascript" src="Components/hospital1.js"></script>
-
-<!-- <script src="Components/jquery-3.5.0.min.js"></script>
-<script src="Components/hospital.js"></script> -->
+<script type="text/javascript" src="Components/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="Components/hospital.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -48,14 +45,14 @@
 				
 				</form>
 				
-					<div id="alertSuccess" class="alert alert-success">				
+					<div id="alertSuccess" class="alert alert-success"></div>				
 					<div id="alertError" class="alert alert-danger"></div>
 
 			</div>
 		</div>
 		
 		
-	</div>
+	
 	
 	<br>
 				<div id = "divHospitalGrid">

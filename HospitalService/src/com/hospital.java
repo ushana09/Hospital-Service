@@ -39,7 +39,7 @@ public class hospital {
 			preparedStmt.setString(3, address);
 			preparedStmt.setString(4, contactno);
 			preparedStmt.setDouble(5, Double.parseDouble(capacity));
-			preparedStmt.setString(5, units);
+			preparedStmt.setString(6, units);
 			
 			// execute the statement
 			preparedStmt.execute();
@@ -79,6 +79,7 @@ public class hospital {
 				String hosContactNo = rs.getString("hosContactNo");
 				String hosCapacity = Double.toString(rs.getDouble("hosCapacity"));
 				String hosUnits = rs.getString("hosUnits");
+				
 				// Add into the html table
 				
 				

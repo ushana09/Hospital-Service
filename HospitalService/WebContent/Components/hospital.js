@@ -37,12 +37,12 @@ $(document).on("click", "#btnSave", function(event) {
 		dataType : "text",
 		complete : function(response, status) 
 		{
-			onHospitalsSaveComplet(response.responseText, status);
+			onHospitalSaveCompelet(response.responseText, status);
 		}
 	});
 });
 	
-	function onHospitalsSaveComplet(response, status) {
+	function onHospitalSaveCompelet(response, status) {
 		if (status == "success") 
 		{
 			var resultSet = JSON.parse(response);
@@ -110,7 +110,7 @@ function onHospitalDeleteComplete(response, status) {
 			$("#alertSuccess").text("Successfully deleted.");
 			$("#alertSuccess").show();
 			
-			$("#divItemsGrid").html(resultSet.data);
+			$("#divHospitalGrid").html(resultSet.data);
 		
 		} else if (resultSet.status.trim() == "error") {
 			$("#alertError").text(resultSet.data);
